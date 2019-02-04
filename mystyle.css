@@ -1,0 +1,91 @@
+.secondary-1-1 {
+  background-color: #bdec97;
+}
+.color-primary-0 {
+  color: #b6f2c3;
+} /* Main Primary color */
+.color-primary-1 {
+  color: #e3fce9;
+}
+.color-primary-2 {
+  color: #cdf8d7;
+}
+.color-primary-3 {
+  color: #9feaaf;
+}
+.color-primary-4 {
+  color: #87e09b;
+}
+
+.color-secondary-1-0 {
+  color: #d7f9bc;
+} /* Main Secondary color (1) */
+.color-secondary-1-1 {
+  color: #f0fee5;
+}
+.color-secondary-1-2 {
+  color: #e4fcd0;
+}
+.color-secondary-1-3 {
+  color: #caf5a7;
+}
+.color-secondary-1-4 {
+  color: #bdf192;
+}
+
+.color-secondary-2-0 {
+  color: #b2ecdf;
+} /* Main Secondary color (2) */
+.color-secondary-2-1 {
+  color: #e2fbf5;
+}
+.color-secondary-2-2 {
+  color: #cbf5eb;
+}
+.color-secondary-2-3 {
+  color: #98e0d0;
+}
+.color-secondary-2-4 {
+  color: #7fd2bf;
+}
+
+.color-complement-0 {
+  color: #ffc6c0;
+} /* Main Complement color */
+.color-complement-1 {
+  color: #ffe8e6;
+}
+.color-complement-2 {
+  color: #ffd7d3;
+}
+.color-complement-3 {
+  color: #ffb5ad;
+}
+.color-complement-4 {
+  color: #ffa49a;
+}
+
+body {
+  background-color: #e2fbf5;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #bdf192;
+  position: -webkit-sticky; /* Safari */
+  position: absolute;
+  right: 150;
+  top: 0;
+  border: 2px solid #7fd2bf;
+}
+
+.aboutMe {
+  font-family: fantasy;
+}
+.contact {
+  font-family: fantasy;
+}

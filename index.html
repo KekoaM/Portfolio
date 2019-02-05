@@ -3,6 +3,10 @@
   <head>
     <title>Kai Morita-McVey's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="mySidenav" class="sidenav">
@@ -13,10 +17,16 @@
       <a href="#">My Projects</a>
       <a href="#contact">Contact</a>
     </div>
-    <span onclick="openNav()">☰</span>
 
-    <div id="main" <>
-      <h1>Kai Morita-McVey's Portfolio</h1>
+    <div id="main">
+      <div style="display: inline-block; padding-right: 15px">
+        <i class="material-icons" onclick="openNav()">
+          menu
+        </i>
+      </div>
+      <div style="display: inline-block">
+        <h1>Kai Morita-McVey's Portfolio</h1>
+      </div>
       <hr />
 
       <div class="aboutMe" id="aboutMe">
@@ -40,10 +50,21 @@
             <h3>Python Webscraper</h3>
             <p>
               This is a program created to grab html elements from websites and
-              text when the element has changed
+              text when the element has changed. This was my first real python
+              project, I hope to continue work on it in the near future as well.
             </p>
             <a class="link" href="https://github.com/KekoaM/pythonwebscraper"
               >pythonwebscraper on GitHub</a
+            >
+          </li>
+          <li>
+            <h3>Portfolio</h3>
+            <p>
+              This portfolio website is hosted on GitHub pages and you can find
+              its code on my GitHub.
+            </p>
+            <a class="link" href="https://github.com/KekoaM/Portfolio"
+              >Portfolio on GitHub</a
             >
           </li>
         </ul>
@@ -51,7 +72,17 @@
       <hr />
 
       <div class="contact" id="contact">
-        <a class="link" href="https://github.com/KekoaM">GitHub</a>
+        <h3>Contact</h3>
+        <ul>
+          <li>
+            <a class="link" href="mailto:contact@kaimoritamcvey.me">
+              contact@kaimoritamcvey.me
+            </a>
+          </li>
+          <li>
+            <a class="link" href="https://github.com/KekoaM">GitHub</a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>

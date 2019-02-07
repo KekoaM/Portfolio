@@ -7,23 +7,17 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;
-      </a>
+      <a href="#">Home</a>
       <a href="#aboutMe">About Me</a>
-      <a href="#">My Projects</a>
+      <a href="#projects">My Projects</a>
       <a href="#contact">Contact</a>
     </div>
 
-    <div id="main">
-      <div style="display: inline-block; padding-right: 15px">
-        <i class="material-icons" onclick="openNav()">
-          menu
-        </i>
-      </div>
+    <div id="main" class="main">
       <div style="display: inline-block">
         <h1>Kai Morita-McVey's Portfolio</h1>
       </div>
@@ -49,9 +43,10 @@
           <li>
             <h3>Python Webscraper</h3>
             <p>
-              This is a program created to grab html elements from websites and
-              text when the element has changed. This was my first real python
-              project, I hope to continue work on it in the near future as well.
+              This is a command line program created to grab html elements from
+              websites and text when the element has changed. This was my first
+              real Python project, an I used it as a way to further my
+              understanding of how to write Python.
             </p>
             <a class="link" href="https://github.com/KekoaM/pythonwebscraper"
               >pythonwebscraper on GitHub</a
@@ -86,17 +81,4 @@
       </div>
     </div>
   </body>
-  <script>
-    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "200px";
-      document.getElementById("main").style.marginLeft = "200px";
-    }
-
-    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-      document.getElementById("main").style.marginLeft = "0";
-    }
-  </script>
 </html>

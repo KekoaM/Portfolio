@@ -10,15 +10,18 @@ body {
   background-color: #f3f7f8;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .aboutMe {
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  font-family: "Open Sans Condensed", sans-serif;
 }
 .contact {
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .link a:hover {
